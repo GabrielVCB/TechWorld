@@ -1,11 +1,17 @@
+/* Cor normal do link */
 ul li a {
-    background-color: transparent; /* Cor normal do link */
+    background-color: transparent;
 }
 
+/* Mudar cor ao passar o mouse */
 ul li a:hover {
-    background-color: #f2f2f2; /* Cor ao passar o mouse */
+    background-color: #f2f2f2;
 }
 
+/* Manter cor normal após clicar ou visitar o link */
+ul li a:visited, ul li a:active {
+    background-color: transparent;
+}
 
 /* Estilo para o parágrafo */
 p {
