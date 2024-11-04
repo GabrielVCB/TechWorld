@@ -1,29 +1,24 @@
-/* Estado normal do link */
 ul li a {
     background-color: transparent;
-    color: black; /* Cor padrão */
-    text-decoration: none; /* Remove o sublinhado, se não quiser */
+    color: black; 
+    text-decoration: underline; 
 }
 
-/* Link ao passar o mouse */
 ul li a:hover {
-    background-color: #f2f2f2; /* Cor de fundo ao passar o mouse */
-    color: blue; /* Cor do texto ao passar o mouse */
+    background-color: #f2f2f2; 
+    color: blue; 
+    text-decoration: underline;
 }
 
-
-/* Estilo para o parágrafo */
 p {
     margin-bottom: 20px;
     padding: 10px;
 }
 
-/* Estilo para o campo de busca */
 input[type="text"]:focus {
     border: 1px solid #ccc;
 }
 
-/* Estilo para o primeiro item da lista de cursos */
 ul li:first-child a {
     color: #008000;
 }
