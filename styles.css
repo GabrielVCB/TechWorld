@@ -1,16 +1,25 @@
-/* Cor normal do link */
+/* Estado normal do link */
 ul li a {
     background-color: transparent;
+    color: black; /* Defina a cor padrão aqui */
+    text-decoration: none; /* Estilo de decoração padrão */
 }
 
-/* Mudar cor ao passar o mouse */
-ul li a:hover {
-    background-color: #f2f2f2;
-}
-
-/* Manter cor normal após clicar ou visitar o link */
-ul li a:visited, ul li a:active {
+/* Link já visitado */
+ul li a:visited {
     background-color: transparent;
+    color: black; /* Mesmo estilo para link visitado */
+}
+
+/* Link ao passar o mouse */
+ul li a:hover {
+    background-color: #f2f2f2; /* Cor de fundo ao passar o mouse */
+    color: blue; /* Opcional: Mudar a cor do texto ao passar o mouse */
+}
+
+/* Link ativo (ao clicar) */
+ul li a:active {
+    background-color: #e0e0e0; /* Opcional: cor ao clicar no link */
 }
 
 /* Estilo para o parágrafo */
