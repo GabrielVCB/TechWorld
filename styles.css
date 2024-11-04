@@ -10,6 +10,12 @@ ul li a:hover {
     text-decoration: underline;
 }
 
+ul li a:active {
+    background-color: #e0e0e0; 
+    color: red;
+    text-decoration: underline;
+}
+
 p {
     margin-bottom: 20px;
     padding: 10px;
